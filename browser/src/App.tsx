@@ -1,11 +1,11 @@
 import React from 'react';
-import './App.css';
-import { companyName } from './Constants/Names';
+import './Styles/App.scss';
+import NavBar from './NavBar';
 
 function App() {
   return (
     <div className="App">
-      <h1>{companyName}</h1>
+      <NavBar />
     </div>
   );
 }
