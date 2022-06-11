@@ -1,9 +1,40 @@
 .nav-bar {
   align-items: center;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
   min-height: 15vh;
   width: 100%;
-  flex-direction: row;
   background-color: rgb(32, 79, 159);
   color: antiquewhite;
+  padding: 2rem 4rem 1.5rem 4rem;
+  .nav-bar-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    img {
+      height: 8rem;
+      width: 8rem;
+    }
+    // background-color: red;
+    .company-name {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 5rem;
+      // background: green;
+      padding-left: 2rem;
+    }
+  }
+  .nav-bar-right {
+    // background-color: brown;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 4.5rem;
+    list-style: none;
+    width: 60%;
+  }
 }

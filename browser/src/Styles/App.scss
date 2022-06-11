@@ -1,5 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+h1,
+h2,
+h3 {
+  color: wheat;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h3,
+h4 {
+  font-weight: 400;
+  color: whitesmoke;
+}
+
 .App {
   align-items: center;
   display: flex;
   flex-direction: column;
 }
+
+@import './NavBar.scss';
