@@ -1,0 +1,9 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 75vh;
+  font: 3rem black;
+}
