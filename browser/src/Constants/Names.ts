@@ -10,3 +10,8 @@ export const companyAddress = {
   pinCode: '243001',
   landmark: 'Dainik Jagran Press'
 };
+
+// Developers
+export const developerName = 'Faraz Husain';
+export const developerLinkin = 'https://www.linkedin.com/in/faraz-husain-iitk/';
+export const developerGithub = 'https://github.com/FarazIITK';
