@@ -1,11 +1,12 @@
 import React from 'react';
 import './Styles/App.scss';
+import { Routes, Route } from 'react-router-dom';
 import NavBar from './NavBar';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Components/Home';
 import Services from './Components/Services';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
