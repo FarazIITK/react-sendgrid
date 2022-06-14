@@ -1,5 +1,6 @@
 import React from 'react';
 import contactPageTopImage from '../assets/contact-page-top-image.jpg';
+import MapContainer from './Map';
 
 const Contact = () => {
   // const pageHeaderText = 'Contact Us';
@@ -14,6 +15,7 @@ const Contact = () => {
         />
       </div>
       <div className="separator"></div>
+      <MapContainer />
     </div>
   );
 };
